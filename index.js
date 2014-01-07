@@ -5,4 +5,6 @@ app.use(function *(){
     this.body = 'Hello World';
 });
 
-app.listen(process.env['PORT']);
+console.log(process.env);
+
+app.listen(process.env['PORT'], process.env['VCAP_APP_HOST']);
