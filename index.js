@@ -7,4 +7,4 @@ app.use(function *(){
 
 console.log(process.env);
 
-app.listen(process.env['PORT'], process.env['VCAP_APP_HOST']);
+app.listen(process.env['PORT'] || '5000', process.env['VCAP_APP_HOST'] || '0.0.0.0');
