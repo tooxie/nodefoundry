@@ -1,7 +1,6 @@
 {
-    "name": "Node Foundry",
+    "name": "nodef",
     "version": "0.0.1",
-    "repository": "https://github.com/tooxie/nodefoundry.git",
     "dependencies": {
         "koa": "0.2.1"
     },
